@@ -5,10 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
+import static java.util.stream.Collectors.toList;
 import static org.junit.jupiter.api.Assertions.fail;
 
 class StreamsTest {
@@ -99,10 +98,19 @@ class StreamsTest {
 			//PISTA: Generación por sdf de fechas
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 			Date ultimoDia2016 = sdf.parse("2016-12-31");
-			
+			Date primerDia2018 = sdf.parse("2018-01-01");
+
+
 			List<Pedido> list = pedHome.findAll();
 				
-			//TODO STREAMS	
+			//TODO STREAMS
+
+			List <String> pedidos2017 = list.stream()
+					.filter(pedido -> pedido.getFecha().after(ultimoDia2016) && pedido.getFecha().before(primerDia2018) && pedido.getTotal() > 500)
+					.map(pedido -> "ID " + pedido.getId() + "TOTAL " + pedido.getTotal() + " Fecha " + pedido.getFecha())
+					.collect(toList());
+
+			pedidos2017.forEach(System.out::println);
 						
 			pedHome.commitTransaction();
 		}
@@ -128,7 +136,13 @@ class StreamsTest {
 	
 			List<Cliente> list = cliHome.findAll();
 			
-			//TODO STREAMS		
+			//TODO STREAMS
+			List <String> listaID = list.stream()
+							.filter(cliente -> cliente.getPedidos().isEmpty())
+									.map(cliente -> "ID: " + cliente.getId())
+											.collect(toList());
+
+			listaID.forEach(System.out::println);
 		
 			cliHome.commitTransaction();
 			
@@ -152,7 +166,16 @@ class StreamsTest {
 		
 			List<Comercial> list = comHome.findAll();		
 			
-			//TODO STREAMS		
+			//TODO STREAMS
+			Float comisionMaxima;
+			List<Comercial> ComercialcomisionMaxima = list.stream()
+							.sorted(Comparator.comparing(Comercial::getComisión).reversed())
+									.limit(1).collect(toList());
+
+			comisionMaxima = ComercialcomisionMaxima.get(0).getComisión();
+			System.out.println(comisionMaxima);
+
+
 				
 			comHome.commitTransaction();
 			
@@ -179,6 +202,11 @@ class StreamsTest {
 			List<Cliente> list = cliHome.findAll();
 			
 			//TODO STREAMS
+			List <String> clientes = list.stream()
+							.filter(cliente -> !(cliente.getApellido2() != null))
+					.sorted(Comparator.comparing(( Cliente cliente) -> cliente.getApellido1()).thenComparing(cliente -> cliente.getNombre()))
+							.map(cliente -> "ID" + cliente.getId() + "Nombre: " + cliente.getNombre() + "Apellido: " + cliente.getApellido1()).collect(toList());
+			clientes.forEach(System.out::println);
 			
 			cliHome.commitTransaction();
 			
