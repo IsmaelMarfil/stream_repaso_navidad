@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edb1dfdc-a7b2-4f83-84bf-765af060388d" name="Changes" comment="Inicial">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/tests/StreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/tests/StreamsTest.java" afterDir="false" />
@@ -19,9 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ZqdMJ7HqUtaHhsrSnglHVmJAdm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,7 +35,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/josemanuel/IdeaProjects/stream",
+    "last_opened_file_path": "C:/Users/34687/IdeaProjects/demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,8 +55,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/iesvdm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamsTest.test4">
-    <configuration name="StreamsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StreamsTest.test19">
+    <configuration name="StreamsTest.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream" />
       <extension name="coverage">
         <pattern>
@@ -67,13 +66,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm.tests" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.tests.StreamsTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test12" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsTest.test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +82,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm.tests" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.tests.StreamsTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="test14" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsTest.test15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream" />
       <extension name="coverage">
         <pattern>
@@ -99,13 +98,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm.tests" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.tests.StreamsTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="METHOD_NAME" value="test15" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsTest.test16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +114,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm.tests" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.tests.StreamsTest" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="METHOD_NAME" value="test16" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsTest.testSkeletonCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsTest.test19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +130,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm.tests" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.tests.StreamsTest" />
-      <option name="METHOD_NAME" value="testSkeletonCliente" />
+      <option name="METHOD_NAME" value="test19" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamsTest.test4" />
-        <item itemvalue="JUnit.StreamsTest.test3" />
-        <item itemvalue="JUnit.StreamsTest.test2" />
-        <item itemvalue="JUnit.StreamsTest.test1" />
-        <item itemvalue="JUnit.StreamsTest.testSkeletonCliente" />
+        <item itemvalue="JUnit.StreamsTest.test19" />
+        <item itemvalue="JUnit.StreamsTest.test16" />
+        <item itemvalue="JUnit.StreamsTest.test15" />
+        <item itemvalue="JUnit.StreamsTest.test14" />
+        <item itemvalue="JUnit.StreamsTest.test12" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +163,7 @@
       <updated>1703153495648</updated>
       <workItem from="1703153496669" duration="892000" />
       <workItem from="1703156624909" duration="2241000" />
+      <workItem from="1703173429777" duration="7437000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <option name="closed" value="true" />
