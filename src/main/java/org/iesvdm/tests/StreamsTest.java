@@ -486,9 +486,18 @@ class StreamsTest {
 			
 			//TODO STREAMS
 
-			List<Set> listPed = list.stream()
-							.map(comercial -> comercial.getPedidos()).collect(toList());
-			//List<Pedido> pedidos = listPed.stream();
+			List<Pedido> listaDePedidos = (List<Pedido>) list.stream()
+					.distinct()
+					.flatMap(comercial -> comercial.getPedidos().stream())
+					.collect(toList());
+
+			List<String> listaDeNombres = (List<String>) listaDePedidos.stream()
+					.filter(pedido -> (pedido.getCliente().getNombre().startsWith("A") && pedido.getCliente().getNombre().endsWith("n")) || pedido.getCliente().getNombre().startsWith("P"))
+					.sorted(Comparator.comparing((Pedido pedido) -> pedido.getCliente().getNombre()))
+					.map(pedido -> pedido.getCliente().getNombre())
+							.collect(toList());
+
+			listaDeNombres.forEach(System.out::println);
 
 
 			

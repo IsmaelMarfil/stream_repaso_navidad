@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edb1dfdc-a7b2-4f83-84bf-765af060388d" name="Changes" comment="Inicial">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/tests/StreamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/tests/StreamsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/34687/IdeaProjects/demo",
+    "last_opened_file_path": "C:/Users/34687/IdeaProjects/stream_repaso_navidad",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,8 +53,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/iesvdm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamsTest.test19">
-    <configuration name="StreamsTest.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StreamsTest.test13">
+    <configuration name="StreamsTest.test13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +64,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm.tests" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.tests.StreamsTest" />
-      <option name="METHOD_NAME" value="test12" />
+      <option name="METHOD_NAME" value="test13" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamsTest.test13" />
         <item itemvalue="JUnit.StreamsTest.test19" />
         <item itemvalue="JUnit.StreamsTest.test16" />
         <item itemvalue="JUnit.StreamsTest.test15" />
         <item itemvalue="JUnit.StreamsTest.test14" />
-        <item itemvalue="JUnit.StreamsTest.test12" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +161,8 @@
       <updated>1703153495648</updated>
       <workItem from="1703153496669" duration="892000" />
       <workItem from="1703156624909" duration="2241000" />
-      <workItem from="1703173429777" duration="7437000" />
+      <workItem from="1703173429777" duration="7464000" />
+      <workItem from="1703233730028" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="Inicial">
       <option name="closed" value="true" />
@@ -173,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703153699527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inicial">
+      <option name="closed" value="true" />
+      <created>1703199564597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703199564597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
